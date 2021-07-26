@@ -11,6 +11,9 @@ This is an api demo built on django's [rest](https://www.django-rest-framework.o
 ```open endpoints
 /admin
 
+/docs
+/redocs
+
 /api
 ../users
 ../../auth/register
