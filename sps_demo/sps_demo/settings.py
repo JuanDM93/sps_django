@@ -52,9 +52,8 @@ INSTALLED_APPS = [
     'users',
 
     # apis
-    #'customers',
+    'customers',
     #'accounts',
-    #'transactions',
 ]
 
 MIDDLEWARE = [

@@ -33,6 +33,8 @@ schema_view = get_schema_view(
 )
 
 
+from customers.api.router import customers_router
+
 # Main Paths
 urlpatterns = [
     # Management
@@ -40,6 +42,7 @@ urlpatterns = [
 
     # Services
     path('api/', include('users.api.router')),
+    path('api/', include(customers_router.urls)),
 
     # Docs
     path('docs', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
