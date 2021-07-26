@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  api:
+    build: ./sps_demo
+    ports:
+      - "8090:8090"
+    volumes:
+      - type: volume
+        source: sps_demo
+        target: /code/sps_demo
+
+volumes:
+  sps_demo:

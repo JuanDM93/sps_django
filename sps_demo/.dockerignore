@@ -1,0 +1,13 @@
+# Local exclusions
+.DS_Store
+venv/
+
+.git/
+.gitignore
+
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+*.log
+__pycache__

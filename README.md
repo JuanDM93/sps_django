@@ -16,15 +16,14 @@ This is an api demo built on django's [rest](https://www.django-rest-framework.o
 
 /api
 
-../users
-../../auth/register
-../../auth/login
-../../auth/me
-../../auth/token/refresh
+../auth
+../../register
+../../login
+../../me
+../../token/refresh
 
 ../customers
 ../accounts
-../transactions
 ```
 
 ## Run options
@@ -47,26 +46,45 @@ py -3 -m venv venv
 venv\Scripts\activate
 ```
 
-Install requirements
+Install requirements from file inside sps_demo/ dir
 
 ```bash
-python -m pip install --upgrade pip
-python -m pip install -U setuptools wheel
-pip install -r requirements.txt
+python -m pip install -U pip setuptools
+pip install -r sps_demo/requirements.txt
 ```
 
-Now, create [.env](https://django-environ.readthedocs.io/en/latest/) file, as in .env.example file inside sps_demo/sps_demo dir
+Now, create [.env](https://django-environ.readthedocs.io/en/latest/) file, as in .env.example file inside sps_django/sps_demo/sps_demo dir
 
-Move into project directory
+Move into project directory, then run server
 
 ```bash
 cd sps_demo/
+python manage.py runserver <PORT>
 ```
 
-Then run server
+### Dockerized compose
+
+Once cloned, create .env file using .env.example as template inside sps_django/sps_demo/sps_demo dir
+
+Then, just [compose](https://docs.docker.com/compose/)
 
 ```bash
-python manage.py runserver <PORT>
+docker-compose up
+```
+
+### Container build and run
+
+Move into sps_demo dir and build with Dockerfile [container](https://www.docker.com/resources/what-container)
+
+```bash
+cd sps_demo/
+docker build -t <CONTAINER_NAME> .
+```
+
+Deploy it
+
+```bash
+docker run -p <PORT>:<port> <CONTAINER_NAME>
 ```
 
 ## Contributing
