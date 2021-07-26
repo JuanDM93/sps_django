@@ -30,7 +30,7 @@ This is an api demo built on django's [rest](https://www.django-rest-framework.o
 
 Warning: as it uses a hosted DB, it is needed to grant network acces for local testing, more details on [ATLAS](https://www.mongodb.com/es/cloud/atlas)
 
-### Local python virtual environment (127.0.0.1:PORT)
+### Local python virtual environment (127.0.0.1:8090)
 
 Once cloned, create new [python environment](https://docs.python.org/3/tutorial/venv.html) "venv", then activate it
 
@@ -62,7 +62,9 @@ cd sps_demo/
 python manage.py runserver <PORT>
 ```
 
-### Dockerized compose
+### Docker (0.0.0.0:8090)
+
+#### Dockerized compose
 
 Once cloned, create .env file using .env.example as template inside sps_django/sps_demo/sps_demo dir
 
@@ -72,7 +74,7 @@ Then, just [compose](https://docs.docker.com/compose/)
 docker-compose up
 ```
 
-### Container build and run
+#### Container build and run
 
 Move into sps_demo dir and build with Dockerfile [container](https://www.docker.com/resources/what-container)
 
@@ -86,6 +88,16 @@ Deploy it
 ```bash
 docker run -p <PORT>:<port> <CONTAINER_NAME>
 ```
+
+### Kubernetes (minikube, docker-desktop)
+
+A deployment.yaml file is at root to orchestrate node asignation and load balancing
+
+```bash
+kubectl apply -f deployment.yaml
+```
+
+This pulls a public pre-configured image juandm93/spstest:latest from docker-hub
 
 ## Contributing
 
