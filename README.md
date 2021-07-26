@@ -89,7 +89,11 @@ Deploy it
 docker run -p <PORT>:<port> <CONTAINER_NAME>
 ```
 
-### Kubernetes (minikube, docker-desktop)
+### Deployment management
+
+For deployment, services pull a public pre-configured image juandm93/spstest:latest from docker-hub
+
+#### Kubernetes (minikube, docker-desktop)
 
 A deployment.yaml file is at root to orchestrate node asignation and load balancing
 
@@ -97,7 +101,13 @@ A deployment.yaml file is at root to orchestrate node asignation and load balanc
 kubectl apply -f deployment.yaml
 ```
 
-This pulls a public pre-configured image juandm93/spstest:latest from docker-hub
+#### Cloud Deployment ([Fly.io](https://fly.io))
+
+A fly.toml file was generated to orchestrate cloud deployment
+
+```Service Public Address
+https://sps-django-fly.fly.dev/
+```
 
 ## Contributing
 
