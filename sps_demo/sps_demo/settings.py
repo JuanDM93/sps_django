@@ -53,7 +53,7 @@ INSTALLED_APPS = [
 
     # apis
     'customers',
-    #'accounts',
+    'accounts',
 ]
 
 MIDDLEWARE = [

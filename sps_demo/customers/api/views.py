@@ -12,4 +12,4 @@ class CustomerViewSet(ModelViewSet):
     queryset = Customer.objects.all()
     lookup_field = 'username'
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['username',]
+    filterset_fields = ['username', 'email']

@@ -19,6 +19,9 @@ from django.contrib import admin
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
+from customers.api.router import customers_router
+from accounts.api.router import accounts_router
+
 
 # Documentation Schema
 schema_view = get_schema_view(
@@ -32,9 +35,6 @@ schema_view = get_schema_view(
     public=True
 )
 
-
-from customers.api.router import customers_router
-
 # Main Paths
 urlpatterns = [
     # Management
@@ -43,6 +43,7 @@ urlpatterns = [
     # Services
     path('api/', include('users.api.router')),
     path('api/', include(customers_router.urls)),
+    path('api/', include(accounts_router.urls)),
 
     # Docs
     path('docs', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
