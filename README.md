@@ -15,11 +15,16 @@ This is an api demo built on django's [rest](https://www.django-rest-framework.o
 /redocs
 
 /api
+
 ../users
 ../../auth/register
 ../../auth/login
 ../../auth/me
 ../../auth/token/refresh
+
+../customers
+../accounts
+../transactions
 ```
 
 ## Run options

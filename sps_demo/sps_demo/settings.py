@@ -49,9 +49,12 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     # app
-    'users'
+    'users',
 
     # apis
+    #'customers',
+    #'accounts',
+    #'transactions',
 ]
 
 MIDDLEWARE = [
@@ -89,6 +92,7 @@ WSGI_APPLICATION = 'sps_demo.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DB_CLUSTER = env.str('DB_CLUSTER')
+DB_NAME = env.str('DB_NAME')
 
 DB_USER = env.str('DB_USER')
 DB_PASSWORD = env.str('DB_PASSWORD')
@@ -98,13 +102,13 @@ DB_HOST = f'{quote(DB_USER)}:{quote(DB_PASSWORD)}@{DB_CLUSTER}/sample_analytics'
 
 DATABASES = {
     'default': {
-        #'ENFORCE_SCHEMA': False,
+        'ENFORCE_SCHEMA': False,
         'ENGINE': 'djongo',
         'CLIENT': {
             'host': f'mongodb+srv://{DB_HOST}?retryWrites=true&w=majority',
             'username': DB_USER, 
             'password': DB_PASSWORD, 
-            'name': 'sample_analytics',
+            'name': DB_NAME,
             'authMechanism': 'SCRAM-SHA-1',
         }
     }
