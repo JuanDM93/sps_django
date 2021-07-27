@@ -4,7 +4,7 @@ Basic Django API Demo for SPSolutions
 
 ## Description
 
-This is an api demo built on django's [rest](https://www.django-rest-framework.org/) framework. It serves [sample data](https://docs.atlas.mongodb.com/sample-data/sample-analytics/#std-label-sample-analytics) from a hosted [mongodb](https://www.mongodb.com) database and has [auth](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) capabilites.
+This is an api demo built on django's [rest](https://www.django-rest-framework.org/) framework. It serves [sample data](https://docs.atlas.mongodb.com/sample-data/sample-analytics/#std-label-sample-analytics) from a hosted [mongodb](https://www.mongodb.com) database and has [auth](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) capabilities and [healthchecks](https://django-health-check.readthedocs.io/).
 
 ### Service Endpoints
 
@@ -24,11 +24,13 @@ This is an api demo built on django's [rest](https://www.django-rest-framework.o
 
 ../customers
 ../accounts
+
+/ht
 ```
 
 ## Run options
 
-Warning: as it uses a hosted DB, it is needed to grant network acces for local testing, more details on [ATLAS](https://www.mongodb.com/es/cloud/atlas)
+Warning: as it uses a hosted DB, it is needed to grant network access for local testing, more details on [ATLAS](https://www.mongodb.com/es/cloud/atlas)
 
 ### Local python virtual environment (127.0.0.1:8090)
 
