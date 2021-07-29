@@ -1,0 +1,1101 @@
+{
+    "_id": {
+        "$oid": "5ca4bbc1a2dd94ee58161cb8"
+    },
+    "account_id": {
+        "$numberInt": "996263"
+    },
+    "transaction_count": {
+        "$numberInt": "77"
+    },
+    "bucket_start_date": {
+        "$date": {
+            "$numberLong": "569203200000"
+        }
+    },
+    "bucket_end_date": {
+        "$date": {
+            "$numberLong": "1483920000000"
+        }
+    },
+    "transactions": [
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1451433600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4195"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "53.958845773894836383988149464130401611328125",
+            "total": "226357.3580214888386308302870"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1131926400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3208"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "7.04231336158449661155600551865063607692718505859375",
+            "total": "22591.74126396306512987166570"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1340668800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6482"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "33.76911441107507272363363881595432758331298828125",
+            "total": "218891.3996125886213945932468"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1332115200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2867"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "28.00215892746228973919642157852649688720703125",
+            "total": "80282.18964503438468227614067"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1370476800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9359"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "31.328993088892193696892718435265123844146728515625",
+            "total": "293208.0463189420408092189518"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1363910400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8859"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "43.9101003438538981527017313055694103240966796875",
+            "total": "388999.5789462016837347846376"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1199232000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8051"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "15.02263160630899818670513923279941082000732421875",
+            "total": "120947.2070623937444011630760"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1470096000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "995"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "122.69174684416037734990823082625865936279296875",
+            "total": "122078.2881099395754631586897"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1448236800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2407"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "80.40757744157059505596407689154148101806640625",
+            "total": "193541.0389018604222997055331"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1404691200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9334"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "38.5845709757638957171366200782358646392822265625",
+            "total": "360148.3854877802026237532118"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1460505600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "584"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "74.474883296442698110695346258580684661865234375",
+            "total": "43493.33184512253569664608222"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "751852800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5383"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "1.8864471675468126310448724325397051870822906494140625",
+            "total": "10154.74510290449239291454830"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1325203200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1459"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "22.201060019035583792401666869409382343292236328125",
+            "total": "32391.34656777291675311403196"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1340150400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6364"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "26.623325741827368773328998940996825695037841796875",
+            "total": "169430.8450209893748734657493"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1043712000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1988"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "18.559235630584392851005759439431130886077880859375",
+            "total": "36895.76043360177298779944977"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1418947200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2237"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "59.93201444483897688542128889821469783782958984375",
+            "total": "134067.9163131047912926874233"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1462838400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3005"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "48.88717398094825483667591470293700695037841796875",
+            "total": "146905.9578127495057842111237"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1398902400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5825"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "53.44825014320078793161883368156850337982177734375",
+            "total": "311336.0570841445897016797062"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "957744000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6878"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "26.332084223406727829797091544605791568756103515625",
+            "total": "181112.0752885914740133443956"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1474934400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "7860"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "127.68992832323777975034317933022975921630859375",
+            "total": "1003642.836620648948837697390"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1129766400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2296"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "5.89101748247444501060954280546866357326507568359375",
+            "total": "13525.77613976132574435951028"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1313971200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5106"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "28.94757223150569558356437482871115207672119140625",
+            "total": "147806.3038140680816496796979"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1409616000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6530"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "41.74998861762727386803817353211343288421630859375",
+            "total": "272627.4256731060983582892732"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1373846400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "7442"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "25.842046332006955111637580557726323604583740234375",
+            "total": "192316.5088027957599408068745"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1415577600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4288"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "45.07010132722468398469573003239929676055908203125",
+            "total": "193260.5944911394449263752904"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1378857600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1878"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "43.52669144957707203502650372684001922607421875",
+            "total": "81743.12654230574128177977400"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1327449600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "7926"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "29.041398013849214265746923047117888927459716796875",
+            "total": "230182.1206577688722703101121"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1393286400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1464"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "63.5218992230870611592763452790677547454833984375",
+            "total": "92996.06046259945753718056949"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1085011200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4138"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "19.344226432059013376374423387460410594940185546875",
+            "total": "80046.40897586019735143736398"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1152489600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6043"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "19.608709879702420408875696011818945407867431640625",
+            "total": "118495.4338030417265308358310"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1296432000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9993"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "32.69056365183974577348635648377239704132080078125",
+            "total": "326676.8025728345795144491603"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1395187200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8583"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "67.6624306288847634505145833827555179595947265625",
+            "total": "580746.6420877179246957666692"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "648086400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4360"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "0.8317898463218771354377167881466448307037353515625",
+            "total": "3626.603729963384310508445196"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1369094400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5733"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "46.81581126557342287242136080749332904815673828125",
+            "total": "268395.0459855324333275916615"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1091750400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6248"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "20.77389216215522793618220021016895771026611328125",
+            "total": "129795.2782291458641452663869"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1025827200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8179"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "20.58866408141062009917732211761176586151123046875",
+            "total": "168394.6835218574617911713176"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1383004800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3259"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "53.73837465363751419999971403740346431732177734375",
+            "total": "175133.3629962046587777990680"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1282003200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8467"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "20.849370808257052800627207034267485141754150390625",
+            "total": "176531.6226335124660629105620"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1439856000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1382"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "95.832531968047618420314393006265163421630859375",
+            "total": "132440.5591798418086568744911"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1288742400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "277"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "28.877261743141080074792625964619219303131103515625",
+            "total": "7999.001502850079180717557392"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1425600000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5281"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "81.1149489503898308839779929257929325103759765625",
+            "total": "428368.0454070086968982877806"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1397088000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9301"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "56.056871570324432241250178776681423187255859375",
+            "total": "521384.9624755875442758679128"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1396569600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9386"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "58.33822330578215087371063418686389923095703125",
+            "total": "547562.5639480712681006480125"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "969580800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1160"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "23.25354590075204441745881922543048858642578125",
+            "total": "26974.11324487237152425223030"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1410739200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2964"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "73.4624383228910033949432545341551303863525390625",
+            "total": "217742.6671890489340626118064"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1054512000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3756"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "18.68365136150745087206814787350594997406005859375",
+            "total": "70175.79451382198547548796341"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1255392000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1304"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "15.297017393782933680768110207282006740570068359375",
+            "total": "19947.31068149294551972161571"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "873331200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6013"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "12.941663556119209488315391354262828826904296875",
+            "total": "77818.22296294480665324044821"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1018483200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "815"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "20.86423592323303211060192552395164966583251953125",
+            "total": "17004.35227743492117014056930"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1217548800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6310"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "16.01184851891281368807540275156497955322265625",
+            "total": "101034.7641543398543717557914"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1345507200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6528"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "37.3542637378546942272805608808994293212890625",
+            "total": "243848.6336807154439156875014"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1425340800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2186"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "79.3952628130134456796440645121037960052490234375",
+            "total": "173558.0445092473922557019250"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1452556800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1026"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "50.20359388800196853708257549442350864410400390625",
+            "total": "51508.88732909001971904672246"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1158883200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9752"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "22.286977213081346604894861229695379734039306640625",
+            "total": "217342.6017819692920909346867"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1426550400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "7058"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "78.7049109537140765269214170984923839569091796875",
+            "total": "555499.2615113139521270113619"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1339977600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1731"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "33.5704906674552745471373782493174076080322265625",
+            "total": "58110.51934536508024109480175"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1459987200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4915"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "114.81875506567530464963056147098541259765625",
+            "total": "564334.1811477941223529342096"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1407369600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8881"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "73.66489657255380052447435446083545684814453125",
+            "total": "654217.9464608503024578567420"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1290729600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3543"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "35.7214117838101827828722889535129070281982421875",
+            "total": "126560.9619500394775997165198"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1372723200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "7471"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "38.27156878267614814603803097270429134368896484375",
+            "total": "285926.8903753735027990501294"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1135296000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3990"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "22.360350783662685358876842656172811985015869140625",
+            "total": "89217.79962681411458191860220"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1422230400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "2958"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "78.0181257457381178710420499555766582489013671875",
+            "total": "230777.6159558933526625423838"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1250640000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "9"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "11.0082635092469924842362161143682897090911865234375",
+            "total": "99.07437158322293235812594503"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1477958400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "175"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "58.3404983041367444229763350449502468109130859375",
+            "total": "10209.58720322393027402085863"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "984441600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4944"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "20.011486492826829675095723359845578670501708984375",
+            "total": "98936.78922053584591367325629"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1276214400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3882"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "22.895992468039342071506325737573206424713134765625",
+            "total": "88882.24276092872592158755651"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1412812800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5398"
+            },
+            "transaction_code": "sell",
+            "symbol": "fb",
+            "price": "76.7696758224152659977335133589804172515869140625",
+            "total": "414402.7100893976058557655051"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1192665600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "743"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "25.778426493493771687326443498022854328155517578125",
+            "total": "19153.37088466587236368354752"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1125964800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "5762"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "22.73064665739590139992287731729447841644287109375",
+            "total": "130973.9860399151838663556191"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1040256000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6502"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "20.318693370277514986810274422168731689453125",
+            "total": "132112.1442935444024442404043"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1262736000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6562"
+            },
+            "transaction_code": "sell",
+            "symbol": "crm",
+            "price": "18.597764355178991735328963841311633586883544921875",
+            "total": "122038.5296986845437672286607"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "856224000000"
+                }
+            },
+            "amount": {
+                "$numberInt": "6992"
+            },
+            "transaction_code": "sell",
+            "symbol": "msft",
+            "price": "9.0765644680942951794122564024291932582855224609375",
+            "total": "63463.33876091531189445049677"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1263859200000"
+                }
+            },
+            "amount": {
+                "$numberInt": "8810"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "25.97715628781013919024189817719161510467529296875",
+            "total": "228858.7468956073262660311229"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1448236800000"
+                }
+            },
+            "amount": {
+                "$numberInt": "176"
+            },
+            "transaction_code": "buy",
+            "symbol": "msft",
+            "price": "51.78917280226695396549985161982476711273193359375",
+            "total": "9114.894413198983897927973885"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1385337600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "4087"
+            },
+            "transaction_code": "buy",
+            "symbol": "crm",
+            "price": "52.0545735053034803740956704132258892059326171875",
+            "total": "212747.0419161753242889290050"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1432857600000"
+                }
+            },
+            "amount": {
+                "$numberInt": "1131"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "79.0874172170044715812764479778707027435302734375",
+            "total": "89447.86887243205735842366266"
+        },
+        {
+            "date": {
+                "$date": {
+                    "$numberLong": "1395014400000"
+                }
+            },
+            "amount": {
+                "$numberInt": "3310"
+            },
+            "transaction_code": "buy",
+            "symbol": "fb",
+            "price": "68.091731229782027412511524744331836700439453125",
+            "total": "225383.6303705785107354131469"
+        }
+    ]
+}

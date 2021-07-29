@@ -1,0 +1,26 @@
+{
+    "_id": {
+        "$oid": "5ca4bbcea2dd94ee58162a7b"
+    },
+    "username": "millerrenee",
+    "name": "Joshua Parker",
+    "address": "932 Jeremy Springs Suite 144\nJohnmouth, NM 02561",
+    "birthdate": {
+        "$date": {
+            "$numberLong": "363566100000"
+        }
+    },
+    "email": "nicoleanderson@hotmail.com",
+    "accounts": [
+        {
+            "$numberInt": "700880"
+        },
+        {
+            "$numberInt": "376846"
+        },
+        {
+            "$numberInt": "271554"
+        }
+    ],
+    "tier_and_details": {}
+}

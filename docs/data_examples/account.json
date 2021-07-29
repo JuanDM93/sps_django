@@ -1,0 +1,15 @@
+{
+    "_id": {
+        "$oid": "5ca4bbc7a2dd94ee5816239e"
+    },
+    "account_id": {
+        "$numberInt": "299072"
+    },
+    "limit": {
+        "$numberInt": "10000"
+    },
+    "products": [
+        "InvestmentFund",
+        "InvestmentStock"
+    ]
+}
