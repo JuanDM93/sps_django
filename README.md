@@ -116,4 +116,5 @@ https://sps-django-fly.fly.dev/
 For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
+
 [MIT License](https://choosealicense.com/licenses/mit/)

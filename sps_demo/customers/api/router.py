@@ -6,4 +6,4 @@ customers_router = DefaultRouter()
 customers_router.register(
     prefix='customers', basename='customers',
     viewset=CustomerViewSet
-    )
+)

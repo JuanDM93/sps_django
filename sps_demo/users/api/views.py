@@ -22,7 +22,7 @@ class UserView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        serial = user_serial.UserSerializer(request.data)        
+        serial = user_serial.UserSerializer(request.data)
         return Response(serial.data)
 
     def put(self, request):
@@ -32,5 +32,3 @@ class UserView(APIView):
             serial.save()
             return Response(serial.data)
         return Response(serial.errors, status=status.HTTP_400_BAD_REQUEST)
-        
-

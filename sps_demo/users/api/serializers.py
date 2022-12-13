@@ -9,7 +9,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         fields = [
             'id', 'email', 'password', 'username'
         ]
-    
+
     def create(self, validated_data):
         password = validated_data.pop('password', None)
         instance = self.Meta.model(validated_data)
@@ -36,4 +36,3 @@ class UserUpdateSerializer(serializers.ModelSerializer):
         fields = [
             'first_name', 'last_name',
         ]
-        
