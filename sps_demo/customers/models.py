@@ -11,7 +11,6 @@ class Customer(models.Model):
     accounts = models.ArrayField(
         model_container=Account, default=None
     )
-    
-    
+
     def __str__(self) -> str:
         return self.username

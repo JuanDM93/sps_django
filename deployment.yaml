@@ -6,9 +6,9 @@ spec:
   selector:
     app: django-test-app
   ports:
-  - protocol: "TCP"
-    port: 8090
-    targetPort: 8090
+    - protocol: "TCP"
+      port: 8090
+      targetPort: 8090
 
 ---
 apiVersion: apps/v1
@@ -28,7 +28,7 @@ spec:
         app: django-test-app
     spec:
       containers:
-      - name: django-test-app
-        image: juandm93/spstest:latest
-        ports:
-        - containerPort: 8090
+        - name: django-test-app
+          image: juandm93/spstest:latest
+          ports:
+            - containerPort: 8090
